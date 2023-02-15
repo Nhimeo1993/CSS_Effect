@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text in Transparent Box</title>
+</head>
+<style>
+    .backgroud{
+        background: url(Color\ Hunt\ Palette\ 362fd93c84ab85cdfddefcf9.png) repeat;
+        border: 2px solid red;
+        /* Thuộc tính repeat được sử dụng để lặp lại hình ảnh nếu nó không đủ lớn để phủ kín phần tử đó. */
+    }
+    .transbox{
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.8;
+    }
+    .transbox p{
+        margin: 5%;
+        font-weight: bold;
+        color:  #000000;
+    }
+</style>
+<body>
+    <div class="backgroud">
+        <div class="transbox">
+            <p>Cha biet lam nao?</p>
+        </div>
+    </div>
+</body>
+</html>
